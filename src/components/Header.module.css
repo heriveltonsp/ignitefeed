@@ -1,0 +1,13 @@
+/* CSS Modules na maioria das vezes utilizar somente Classes, nao usar IDs ou outro tipo de selecao dentro do CSS 
+1REM = 16px
+*/
+.header {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.header img {
+  height: 2rem;
+}
